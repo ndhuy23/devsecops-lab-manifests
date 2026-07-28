@@ -1,0 +1,19 @@
+# Kubernetes secret manifests
+backend/secret.yaml
+database/secret.yaml
+frontend/secret.yaml
+
+# Any secret file in subfolders
+**/secret.yaml
+**/*secret*.yaml
+**/*secret*.yml
+
+# Environment files
+.env
+.env.*
+**/.env
+**/.env.*
+
+# Local/debug files
+*.log
+.DS_Store
