@@ -4,4 +4,4 @@ metadata:
   name: frontend-config
   namespace: todo-list-demo
 data:
-  NEXT_PUBLIC_API_URL: "http://backend:5000/api"
+  NEXT_PUBLIC_API_URL: "https://api-todo.huydevops.online/api"
