@@ -24,7 +24,7 @@ spec:
     spec:
       containers:
         - name: backend
-          image: ndhuy23/devops-bootcamp-todolist-backend-api:v1
+          image: harbor.huydevops.online/todo-list-demo/backend:domain-api-v1
           imagePullPolicy: Always
 
           ports:
@@ -67,3 +67,5 @@ spec:
             limits:
               cpu: 500m
               memory: 512Mi
+      imagePullSecrets:
+        - name: harbor-regcred
