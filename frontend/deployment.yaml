@@ -20,7 +20,7 @@ spec:
     spec:
       containers:
         - name: frontend
-          image: harbor.huydevops.online/todo-list-demo/frontend:10-00d7cfd
+          image: harbor.huydevops.online/todo-list-demo/frontend:11-bd913d0
           imagePullPolicy: Always
           ports:
             - name: http
