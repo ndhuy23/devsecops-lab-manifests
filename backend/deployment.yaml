@@ -24,7 +24,7 @@ spec:
     spec:
       containers:
         - name: backend
-          image: harbor.huydevops.online/todo-list-demo/backend:domain-api-v1
+          image: harbor.huydevops.online/todo-list-demo/backend:1-1665a78
           imagePullPolicy: Always
 
           ports:
