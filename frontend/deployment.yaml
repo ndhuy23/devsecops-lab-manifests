@@ -20,7 +20,7 @@ spec:
     spec:
       containers:
         - name: frontend
-          image: ndhuy23/devops-bootcamp-todolist-frontend:v1
+          image: ndhuy23/devops-bootcamp-todolist-frontend:domain-api-v1
           imagePullPolicy: Always
           ports:
             - name: http
